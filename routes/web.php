@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Renobutecommerce;
+use App\Http\Controllers\RenobutecommerceController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('renObutECommerce.index');
+Route::controller(RenobutecommerceController::class)->group(function(){
+    Route::get('/', 'index');
+
+});
+
+Route::controller(UserController::class)->group(function(){
+    Route::get('/login', 'login');
+
 });
