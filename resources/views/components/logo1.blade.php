@@ -1,0 +1,1 @@
+<a href="/"><img class="mx-auto h-10 w-auto" src="RenObutECommerceLogo/1.png" alt="Your Company"></a>
