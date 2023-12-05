@@ -22,4 +22,16 @@ class UserController extends Controller
     {
         return view('users.sample');
     }
+    public function not_found_page()
+    {
+        return view('users.notFound');
+    }
+    public function dashboard()
+    {
+        return view('users.dashboard');
+    }
+    public function home()
+    {
+        return view('users.home');
+    }
 }

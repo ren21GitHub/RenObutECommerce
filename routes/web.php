@@ -27,4 +27,7 @@ Route::controller(UserController::class)->group(function(){
     Route::get('/forgetPassword', 'forgetPass');
 
     Route::get('/sample', 'sample');
+    Route::get('/notFound', 'not_found_page');
+    Route::get('/dashboard', 'dashboard');
+    Route::get('/home', 'home');
 });
