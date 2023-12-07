@@ -7,33 +7,57 @@
         </div>
     
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form class="space-y-6" action="#" method="POST">
+            <form class="space-y-6" action="/store" method="POST">
+                @csrf
                 <div>
-                    <label for="fname" class="block text-sm font-medium leading-6 text-gray-900">First Name</label>
+                    <label for="first_name" class="block text-sm font-medium leading-6 text-gray-900">First Name</label>
                     <div class="mt-2">
-                    <input id="fname" name="fname" type="text" placeholder="Juan"{{-- autocomplete="email" --}} required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
+                        <input id="first_name" name="first_name" type="text" placeholder="Juan" autocomplete="given-name" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6" value={{old('first_name')}}>
+                        @error('first_name')
+                            <p class="block text-xs font-normal leading-3 text-red-600">{{$message}}</p>                            
+                        @enderror
                     </div>
                 </div>
                 <div>
-                    <label for="lname" class="block text-sm font-medium leading-6 text-gray-900">Last Name</label>
+                    <label for="last_name" class="block text-sm font-medium leading-6 text-gray-900">Last Name</label>
                     <div class="mt-2">
-                    <input id="lname" name="lname" type="text" placeholder="Dela Cruz"{{-- autocomplete="email" --}} required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
+                        <input id="last_name" name="last_name" type="text" placeholder="Dela Cruz" autocomplete="family-name" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6" value={{old('last_name')}}>
+                        @error('last_name')
+                            <p class="block text-xs font-normal leading-3 text-red-600">{{$message}}</p>
+                        @enderror
                     </div>
                 </div>
                 <div>
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
-                <div class="mt-2">
-                    <input id="email" name="email" type="email" placeholder="sample@gmail.com" autocomplete="email" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
-                </div>
+                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                    <div class="mt-2">
+                        <input id="email" name="email" type="email" placeholder="sample@gmail.com" autocomplete="email" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6" value={{old('email')}}>
+                        @error('email')
+                            <p class="block text-xs font-normal leading-3 text-red-600">{{$message}}</p>
+                        @enderror
+                    </div>
                 </div>
     
                 <div>
-                <div class="flex items-center justify-between">
-                    <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
+                    <div class="flex items-center justify-between">
+                        <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
+                    </div>
+                    <div class="mt-2">
+                        <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
+                        @error('password')
+                            <p class="block text-xs font-normal leading-3 text-red-600">{{$message}}</p>
+                        @enderror
+                    </div>
                 </div>
-                <div class="mt-2">
-                    <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
-                </div>
+                <div>
+                    <div class="flex items-center justify-between">
+                        <label for="password_confirmation" class="block text-sm font-medium leading-6 text-gray-900">Password Confirmation</label>
+                    </div>
+                    <div class="mt-2">
+                        <input id="password_confirmation" name="password_confirmation" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:text-sm sm:leading-6">
+                        @error('password_confirmation')
+                            <p class="block text-xs font-normal leading-3 text-red-600">{{$message}}</p>
+                        @enderror
+                    </div>
                 </div>
 
                 <div>

@@ -17,13 +17,13 @@
               </button>
             </div>
             <div class="hidden sm:flex sm:gap-x-12">
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-lime-500">About</a>
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-lime-500">Samples</a>
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-lime-500">Services</a>
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-lime-500">Contact Us</a>
+              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">About</a>
+              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Samples</a>
+              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Services</a>
+              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Contact Us</a>
             </div>
             <div class="hidden sm:flex sm:flex-1 sm:justify-end">
-              <a href="/login" class="text-sm font-semibold leading-6 text-gray-900 hover:text-lime-500">Log in <span aria-hidden="true">&rarr;</span></a>
+              <a href="/login" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Log in <span aria-hidden="true">&rarr;</span></a>
             </div>
           </nav>
           <!-- Mobile menu, show/hide based on menu open state. -->
@@ -36,7 +36,7 @@
                   <span class="sr-only">Your Company</span>
                   <x-logo/>
                 </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 hover:text-lime-500">
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 hover:text-orange-500">
                   <span class="sr-only">Close menu</span>
                   <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -46,13 +46,13 @@
               <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
-                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-lime-500 hover:bg-lime-50">About</a>
-                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-lime-500 hover:bg-lime-50">Samples</a>
-                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-lime-500 hover:bg-lime-50">Services</a>
-                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-lime-500 hover:bg-lime-50">Contact Us</a>
+                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-orange-500 hover:bg-lime-50">About</a>
+                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-orange-500 hover:bg-lime-50">Samples</a>
+                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-orange-500 hover:bg-lime-50">Services</a>
+                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-orange-500 hover:bg-lime-50">Contact Us</a>
                   </div>
                   <div class="py-6">
-                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:text-lime-500 hover:bg-lime-50">Log in</a>
+                    <a href="#" class="-mx-3 block rounded-sm px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:text-orange-500 hover:bg-lime-50">Log in</a>
                   </div>
                 </div>
               </div>

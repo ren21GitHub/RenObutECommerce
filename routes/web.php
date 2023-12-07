@@ -24,6 +24,7 @@ Route::controller(RenobutecommerceController::class)->group(function(){
 Route::controller(UserController::class)->group(function(){
     Route::get('/login', 'login');
     Route::get('/register', 'register');
+    Route::post('/store', 'store');
     Route::get('/forgetPassword', 'forgetPass');
 
     Route::get('/sample', 'sample');

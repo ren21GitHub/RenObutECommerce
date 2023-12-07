@@ -9,7 +9,7 @@
 @include('partials._header')
 <x-bgTop/>
 <div class="min-h-full">
-    <nav class="bg-lime-700">
+    <nav class="bg-lime-50">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
