@@ -289,7 +289,7 @@
     </div>
   
     <header class="relative {{-- bg-white --}}">
-        <p class="flex h-10 items-center justify-center bg-lime-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">Get free delivery on orders over $100</p>
+        <p class="flex h-10 items-center justify-center bg-green-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">Get free delivery on orders over $100</p>
   
         <nav aria-label="Top" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="border-b border-gray-200">
@@ -312,12 +312,12 @@
                     </div>
         
                     <!-- Flyout menus -->
-                    <div class="hidden lg:ml-8 lg:block lg:self-stretch {{-- bg-lime-700 --}}">
+                    <div class="hidden lg:ml-8 lg:block lg:self-stretch {{-- bg-green-700 --}}">
                         <div class="flex h-full space-x-8">
                             <div class="flex">{{-- Women --}}
                                 <div class="relative flex">
-                                    <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-orange-800" -->
-                                    <button type="button" class="border-transparent text-gray-700 hover:text-orange-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Women</button>
+                                    <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-green-800" -->
+                                    <button type="button" class="border-transparent text-gray-700 hover:text-green-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Women</button>
                                 </div>
             
                                 <!--
@@ -494,31 +494,31 @@
                                                         <p id="Clothing-heading" class="font-medium text-gray-900">Clothing</p>
                                                         <ul role="list" aria-labelledby="Clothing-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Tops</a>
+                                                                <a href="#" class="hover:text-green-800">Tops</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Dresses</a>
+                                                                <a href="#" class="hover:text-green-800">Dresses</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Pants</a>
+                                                                <a href="#" class="hover:text-green-800">Pants</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Denim</a>
+                                                                <a href="#" class="hover:text-green-800">Denim</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Sweaters</a>
+                                                                <a href="#" class="hover:text-green-800">Sweaters</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">T-Shirts</a>
+                                                                <a href="#" class="hover:text-green-800">T-Shirts</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Jackets</a>
+                                                                <a href="#" class="hover:text-green-800">Jackets</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Activewear</a>
+                                                                <a href="#" class="hover:text-green-800">Activewear</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Browse All</a>
+                                                                <a href="#" class="hover:text-green-800">Browse All</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -526,22 +526,22 @@
                                                         <p id="Accessories-heading" class="font-medium text-gray-900">Accessories</p>
                                                         <ul role="list" aria-labelledby="Accessories-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Watches</a>
+                                                                <a href="#" class="hover:text-green-800">Watches</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Wallets</a>
+                                                                <a href="#" class="hover:text-green-800">Wallets</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Bags</a>
+                                                                <a href="#" class="hover:text-green-800">Bags</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Sunglasses</a>
+                                                                <a href="#" class="hover:text-green-800">Sunglasses</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Hats</a>
+                                                                <a href="#" class="hover:text-green-800">Hats</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Belts</a>
+                                                                <a href="#" class="hover:text-green-800">Belts</a>
                                                             </li>
                                                         </ul>   
                                                     </div>
@@ -549,19 +549,19 @@
                                                         <p id="Brands-heading" class="font-medium text-gray-900">Brands</p>
                                                         <ul role="list" aria-labelledby="Brands-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Full Nelson</a>
+                                                                <a href="#" class="hover:text-green-800">Full Nelson</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">My Way</a>
+                                                                <a href="#" class="hover:text-green-800">My Way</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Re-Arranged</a>
+                                                                <a href="#" class="hover:text-green-800">Re-Arranged</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Counterfeit</a>
+                                                                <a href="#" class="hover:text-green-800">Counterfeit</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Significant Other</a>
+                                                                <a href="#" class="hover:text-green-800">Significant Other</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -574,8 +574,8 @@
 
                             <div class="flex">{{-- Men --}}
                                 <div class="relative flex">
-                                    <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-orange-800" -->
-                                    <button type="button" class="border-transparent text-gray-700 hover:text-orange-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Men</button>
+                                    <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-green-800" -->
+                                    <button type="button" class="border-transparent text-gray-700 hover:text-green-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Men</button>
                                 </div>
             
                                 <!--
@@ -713,25 +713,25 @@
                                                         <p id="Clothing-heading" class="font-medium text-gray-900">Clothing</p>
                                                         <ul role="list" aria-labelledby="Clothing-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Tops</a>
+                                                                <a href="#" class="hover:text-green-800">Tops</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Pants</a>
+                                                                <a href="#" class="hover:text-green-800">Pants</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Sweaters</a>
+                                                                <a href="#" class="hover:text-green-800">Sweaters</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">T-Shirts</a>
+                                                                <a href="#" class="hover:text-green-800">T-Shirts</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Jackets</a>
+                                                                <a href="#" class="hover:text-green-800">Jackets</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Activewear</a>
+                                                                <a href="#" class="hover:text-green-800">Activewear</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Browse All</a>
+                                                                <a href="#" class="hover:text-green-800">Browse All</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -739,22 +739,22 @@
                                                         <p id="Accessories-heading" class="font-medium text-gray-900">Accessories</p>
                                                         <ul role="list" aria-labelledby="Accessories-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Watches</a>
+                                                                <a href="#" class="hover:text-green-800">Watches</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Wallets</a>
+                                                                <a href="#" class="hover:text-green-800">Wallets</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Bags</a>
+                                                                <a href="#" class="hover:text-green-800">Bags</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Sunglasses</a>
+                                                                <a href="#" class="hover:text-green-800">Sunglasses</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Hats</a>
+                                                                <a href="#" class="hover:text-green-800">Hats</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Belts</a>
+                                                                <a href="#" class="hover:text-green-800">Belts</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -762,16 +762,16 @@
                                                         <p id="Brands-heading" class="font-medium text-gray-900">Brands</p>
                                                         <ul role="list" aria-labelledby="Brands-heading" class="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Re-Arranged</a>
+                                                                <a href="#" class="hover:text-green-800">Re-Arranged</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Counterfeit</a>
+                                                                <a href="#" class="hover:text-green-800">Counterfeit</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">Full Nelson</a>
+                                                                <a href="#" class="hover:text-green-800">Full Nelson</a>
                                                             </li>
                                                             <li class="flex">
-                                                                <a href="#" class="hover:text-orange-800">My Way</a>
+                                                                <a href="#" class="hover:text-green-800">My Way</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -782,20 +782,20 @@
                                 </div>
                             </div>
             
-                            <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-orange-800">Company</a>
-                            <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-orange-800">Stores</a>
+                            <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-green-800">Company</a>
+                            <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-green-800">Stores</a>
                         </div>
                     </div>
         
-                    <div class="ml-auto flex items-center {{-- bg-lime-700 --}}">
+                    <div class="ml-auto flex items-center {{-- bg-green-700 --}}">
                         <div class="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                            <a href="#" class="text-sm font-medium text-gray-700 hover:text-orange-800">Sign in</a>
+                            <a href="#" class="text-sm font-medium text-gray-700 hover:text-green-800">Sign in</a>
                                 <span class="h-6 w-px bg-gray-200" aria-hidden="true"></span>
-                            <a href="#" class="text-sm font-medium text-gray-700 hover:text-orange-800">Create account</a>
+                            <a href="#" class="text-sm font-medium text-gray-700 hover:text-green-800">Create account</a>
                         </div>
             
                         <div class="hidden lg:ml-8 lg:flex">
-                            <a href="#" class="flex items-center text-gray-700 hover:text-orange-800">
+                            <a href="#" class="flex items-center text-gray-700 hover:text-green-800">
                                 <img src="https://tailwindui.com/img/flags/flag-canada.svg" alt="" class="block h-auto w-5 flex-shrink-0">
                                 <span class="ml-3 block text-sm font-medium">CAD</span>
                                 <span class="sr-only">, change currency</span>
@@ -804,7 +804,7 @@
             
                         <!-- Search -->
                         <div class="flex lg:ml-6">
-                            <a href="#" class="p-2 text-gray-400 hover:text-orange-500">
+                            <a href="#" class="p-2 text-gray-400 hover:text-green-500">
                                 <span class="sr-only">Search</span>
                                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -815,10 +815,10 @@
                         <!-- Cart -->
                         <div class="ml-4 flow-root lg:ml-6">
                             <a href="#" class="group -m-2 flex items-center p-2">
-                                <svg class="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-orange-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <svg class="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-green-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                 </svg>
-                                <span class="ml-2 text-sm font-medium text-gray-700 group-hover:text-orange-800">0</span>
+                                <span class="ml-2 text-sm font-medium text-gray-700 group-hover:text-green-800">0</span>
                                 <span class="sr-only">items in cart, view bag</span>
                             </a>
                         </div>

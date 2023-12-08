@@ -1,5 +1,5 @@
 @include('partials._header')
-<x-bgTop/>
+{{-- <x-bgTop/> --}}
     <form class="flex min-h-full {{-- flex-col --}} justify-center px-6 py-12 lg:px-8">
         <div class="space-y-12">
             <div class="border-b border-gray-900/10 pb-12">
@@ -186,5 +186,5 @@
             </div>
         </div>
     </form>
-<x-bgBottom/>
+{{-- <x-bgBottom/> --}}
 @include('partials._footer')
