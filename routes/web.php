@@ -17,18 +17,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::controller(RenobutecommerceController::class)->group(function(){
-    Route::get('/', 'index');
-
+    Route::get('/', 'index')/* ->middleware('auth') */;
 });
 
 Route::controller(UserController::class)->group(function(){
-    Route::get('/login', 'login');
+    Route::get('/login', 'login')->name('login')->middleware('guest');
+    Route::post('/login/process', 'process');
+    Route::post('/logout', 'logout');
     Route::get('/register', 'register');
     Route::post('/store', 'store');
     Route::get('/forgetPassword', 'forgetPass');
 
     Route::get('/sample', 'sample');
     Route::get('/notFound', 'not_found_page');
-    Route::get('/dashboard', 'dashboard');
-    Route::get('/home', 'home');
+    // Route::get('/dashboard', 'dashboard');
+    // Route::get('/home', 'home');
 });

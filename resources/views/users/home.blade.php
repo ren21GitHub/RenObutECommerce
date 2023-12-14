@@ -14,6 +14,7 @@
   }
   ```
 -->
+
 <div class="{{-- bg-white --}}">
     <!--
       Mobile menu
@@ -317,7 +318,7 @@
                             <div class="flex">{{-- Women --}}
                                 <div class="relative flex">
                                     <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-green-800" -->
-                                    <button type="button" class="border-transparent text-gray-700 hover:text-green-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Women</button>
+                                    <button type="button" class="border-green-600 text-green-600 text-gray-700 hover:text-green-800 relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out" aria-expanded="false">Women</button>
                                 </div>
             
                                 <!--

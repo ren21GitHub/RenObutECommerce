@@ -12,7 +12,36 @@ class UserController extends Controller
 {
     public function login()
     {
-        return view('users.login');
+        if(View::exists('users.login')){
+            return view('users.login');
+        }else{
+            return view('users.notFound');
+        }
+    }
+
+    public function process(Request $request)
+    {
+        $validated = $request->validate([
+            "email" => ['required', 'email'],
+            "password" => 'required'
+        ]);
+
+        if(auth()->attempt($validated)){
+            $request->session()->regenerate();
+
+            return redirect('/')->with('message', 'Welcome');
+        }
+        return back()->withErrors(['email' => 'Login Unsuccessful!'])->onlyInput('email');
+    }
+
+    public function logout(Request $request)
+    {
+        auth()->logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/login')->with('message', 'You have successfully logout.');
     }
 
     public function register()
@@ -36,28 +65,52 @@ class UserController extends Controller
         $validated['password'] = bcrypt($validated['password']);
         // $validated['remember_token'] = Str::random(10);
         User::create($validated);
-        return redirect('/login');
+        return redirect('/login')->with('message', 'Another user successfully created.');
     }
 
 
     public function forgetPass()
     {
-        return view('users.forgetPassword');
+        if(View::exists('users.forgetPassword')){
+            return view('users.forgetPassword');
+        }else{
+            return view('users.notFound');
+        }
     }
+
     public function sample()
     {
-        return view('users.sample');
+        if(View::exists('users.sample')){
+            return view('users.sample');
+        }else{
+            return view('users.notFound');
+        }
     }
+
     public function not_found_page()
     {
-        return view('users.notFound');
+        if(View::exists('users.notFound')){
+            return view('users.notFound');
+        }else{
+            return view('users.notFound');
+        }
     }
+
     public function dashboard()
     {
-        return view('users.dashboard');
+        if(View::exists('users.dashboard')){
+            return view('users.dashboard');
+        }else{
+            return view('users.notFound');
+        }
     }
-    public function home()
+
+    /* public function home()
     {
-        return view('users.home');
-    }
+        if(View::exists('users.home')){
+            return view('users.home');
+        }else{
+            return view('users.notFound');
+        }
+    } */
 }
